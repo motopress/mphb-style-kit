@@ -1,18 +1,6 @@
 <p align="center">
   <a href="https://motopress.com/products/hotel-booking/">
-    <svg width="128" height="128" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect width="1024" height="1024" fill="url(#paint0_linear_2_89)" />
-        <path d="M489.756 184.769L288.913 331.457C268.229 346.565 256 370.639 256 396.254V756.062C256 795.274 287.788 827.062 327 827.062H698C737.212 827.062 769 795.274 769 756.062V397.238C769 371.075 756.244 346.554 734.82 331.536L524.966 184.427C514.365 176.996 500.21 177.133 489.756 184.769Z" stroke="white" stroke-width="62"/>
-        <path d="M432 614.2C432 612.433 433.433 611 435.2 611H590.8C592.567 611 594 612.433 594 614.2V821H432V614.2Z" stroke="white" stroke-width="62"/>
-        <circle cx="512.5" cy="354.5" r="55.5" fill="white"/>
-        <path d="M507 354.5C587.199 276.382 718.906 160.337 755.5 197C780.005 221.551 741.248 292.449 716 317" stroke="white" stroke-width="55"/>
-        <defs>
-            <linearGradient id="paint0_linear_2_89" x1="512" y1="0" x2="512" y2="1024" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#0DB5F7"/>
-            <stop offset="1" stop-color="#016AF7"/>
-            </linearGradient>
-        </defs>
-    </svg>
+    <img src="https://ps.w.org/motopress-hotel-booking-lite/assets/icon-128x128.png" width="128" height="128" alt="MotoPress Hotel Booking">
   </a>
 </p>
 
