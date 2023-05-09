@@ -1,0 +1,300 @@
+.datepick {
+    // calendar navigation
+    &-nav {
+
+    }
+
+    // calendar navigation controls
+    &-cmd {
+
+        &-prev {
+
+        }
+
+        &-next {
+
+        }
+
+        &-today {
+
+        }
+
+    }
+
+    // calendar months
+    &-month-row {
+
+    }
+
+    // single month
+    &-month {
+
+        &.first {
+
+        }
+
+        &.last {
+
+        }
+
+        &-header {
+
+            // month and year selects
+            .datepick-month-year {
+
+            }
+
+        }
+
+        table {
+
+            thead {
+
+                // weekdays
+                th {
+
+                }
+            }
+
+            tbody {
+
+                td {
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+// styles for inline calendars(shortcode, single accommodation page)
+.mphb-calendar {
+    // default color variables
+    // uncomment and change any color
+
+    // --mphb-available-date-bg: #cef093;
+    // --mphb-available-date-color: #000000;
+    // --mphb-not-available-date-bg: #dddddd;
+    // --mphb-not-available-date-color: #777777;
+    // --mphb-booked-date-bg: #dddddd;
+    // --mphb-booked-date-color: #777777;
+    // --mphb-out-of-season-date-bg: #dddddd;
+    // --mphb-out-of-season-date-color: #777777;
+    // --mphb-selected-date-bg: #404040;
+    // --mphb-selected-date-color: #ffffff;
+    // --mphb-unselectable-date-color: #777777;
+
+    // added when new data loading(month change)
+    &.mphb-loading {
+
+    }
+
+    // accommodation price
+    .datepick-month td span .mphb-date-cell__price,
+    .datepick-month td a .mphb-date-cell__price {
+
+        span {
+
+        }
+
+    }
+
+    td {
+
+        // default date
+        .mphb-date-cell {
+
+        }
+
+        // available date
+        .mphb-available-date {
+
+        }
+
+        // past date(date before today)
+        .mphb-past-date {
+
+        }
+
+        // last date of season
+        .mphb-out-of-season-date--check-in {
+
+        }
+
+        // first day of season
+        .mphb-out-of-season-date--check-out {
+
+        }
+
+        // last day of season and last day of block(booking rule)
+        .mphb-out-of-season-date--check-in.mphb-mark-as-unavailable--check-out {
+
+        }
+
+        // first day of season and blocked date(booking rule)
+        .mphb-out-of-season-date--check-out.mphb-mark-as-unavailable,
+        .mphb-out-of-season-date--check-out.mphb-mark-as-unavailable--check-in {
+
+        }
+
+        // out of season date
+        .mphb-out-of-season-date,
+        .mphb-out-of-season-date--check-in.mphb-out-of-season-date--check-out {
+
+        }
+
+        // blocked check-in date(booking rule)
+        .mphb-mark-as-unavailable--check-in {
+
+            // and out of season date
+            &.mphb-out-of-season-date,
+            &.mphb-out-of-season-date--check-in.mphb-out-of-season-date--check-out {
+
+            }
+
+        }
+
+        // blocked check-out date(booking rule)
+        .mphb-mark-as-unavailable--check-out {
+
+            // and out of season date
+            &.mphb-out-of-season-date,
+            &.mphb-out-of-season-date--check-in.mphb-out-of-season-date--check-out {
+
+            }
+
+        }
+
+         // fully blocked date(booking rule)
+        .mphb-mark-as-unavailable,
+        .mphb-mark-as-unavailable--check-in.mphb-mark-as-unavailable--check-out {
+
+        }
+
+        // booked date
+        .mphb-booked-date {
+
+        }
+
+        // first day of booking
+        .mphb-date-check-in {
+
+            // and blocked(booking rule)
+            &.mphb-mark-as-unavailable,
+            &.mphb-mark-as-unavailable--check-out {
+
+            }
+
+            // and first day of season
+            &.mphb-out-of-season-date--check-out {
+
+            }
+
+        }
+
+        // last day of booking
+        .mphb-date-check-out {
+
+            // and blocked(booking rule)
+            &.mphb-mark-as-unavailable,
+            &.mphb-mark-as-unavailable--check-in {
+
+            }
+
+            // and last day of season
+            &.mphb-out-of-season-date--check-in {
+
+            }
+
+        }
+
+        // unavailable for selection dates
+        .mphb-unselectable-date--check-in,
+        .mphb-unselectable-date--check-out {
+
+        }
+
+        // dates selection
+        .mphb-selected-date,
+        .mphb-selected-date--check-in,
+        .mphb-selected-date--check-out,
+        .mphb-selectable-date--check-in:hover,
+        .mphb-selectable-date--check-out:hover {
+
+        }
+
+    }
+
+    // selected dates range and 'clear selection' button
+    .datepick-ctrl {
+
+        a,
+        a:hover {
+
+        }
+
+        .mphb-calendar__selected-dates {
+
+        }
+
+        .datepick-cmd-clear {
+
+        }
+
+    }
+
+}
+
+// styles for popup calendars(booking forms, search availability forms)
+.mphb-datepick-popup {
+
+    td {
+
+        // current date
+        .datepick-today {
+
+        }
+
+        // hovered date
+        .datepick-highlight {
+
+        }
+
+        // selectable date
+        .mphb-selectable-date {
+
+        }
+
+        // unselectable date
+        .mphb-unselectable-date {
+
+        }
+
+        // selected date
+        .datepick-selected {
+
+        }
+
+    }
+
+    // calendar controls, clear/close buttons
+    .datepick-ctrl {
+
+        .datepick-cmd {
+
+            &-clear {
+
+            }
+
+            &-close {
+
+            }
+
+        }
+
+    }
+
+}

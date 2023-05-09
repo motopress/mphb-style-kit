@@ -1,0 +1,39 @@
+.mphb_sc_services-wrapper {
+
+    // single service root node
+    .mphb-service {
+
+    }
+
+    // service featured image
+    .mphb-loop-service-thumbnail {
+
+        img {
+
+        }
+
+    }
+
+    // service title
+    .mphb-service-title {
+
+        a {
+
+        }
+
+    }
+
+    // service price, use only if you need override common styles from "./scss/price.scss"
+    .mphb-price-wrapper {
+
+        .mphb-price {
+
+            .mphb-currency {
+
+            }
+
+        }
+
+    }
+
+}

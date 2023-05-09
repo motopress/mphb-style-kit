@@ -1,0 +1,20 @@
+{
+  "name": "mphb-style-kit",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "author": "MotoPress",
+  "license": "GPL",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "gulp-autoprefixer": "^8.0.0",
+    "sass": "^1.62.1"
+  },
+  "browserslist": [
+    "last 6 version"
+  ],
+  "scripts": {
+    "compile": "gulp compile",
+    "watch": "gulp watch"
+  }
+}

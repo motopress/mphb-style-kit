@@ -1,0 +1,86 @@
+// single accommodation gallery
+.mphb-single-room-type-gallery-wrapper {
+
+    .gallery {
+
+        &-item {
+
+        }
+
+        &-icon {
+
+        }
+
+        a {
+
+        }
+
+        img {
+
+        }
+
+    }
+
+}
+
+// accommodation attributes, use only if you need override common styles from "./scss/accommodation-attributes.scss"
+.mphb-single-room-type-attributes {
+
+    li {
+
+    }
+
+    .mphb-attribute-title {
+
+    }
+
+    .mphb-attribute-value {
+
+    }
+
+}
+
+// booking form
+.mphb-booking-form {
+
+}
+
+// single accommodation type page
+body.single-mphb_room_type {
+
+    // details title
+    .mphb-details-title {
+
+    }
+
+    // calendar title
+    .mphb-calendar-title {
+
+    }
+
+    // booking form title
+    .mphb-reservation-form-title {
+
+    }
+
+    // accommodation price
+    .mphb-regular-price {
+
+        strong {
+
+        }
+
+        //
+        .mphb-price {
+
+            .mphb-currency {
+
+            }
+
+        }
+
+        .mphb-price-period {
+
+        }
+    }
+}

@@ -1,0 +1,382 @@
+.mphb_sc_checkout-wrapper {
+
+    // login form
+    .mphb-login-form-wrap {
+
+        .mphb-login-form {
+
+            // here can be user rules from "./scss/login-form.scss" to override styles
+
+        }
+
+    }
+
+    // checkout form
+    .mphb_sc_checkout-form {
+
+        > .mphb-checkout-section:not(:first-of-type) {
+
+            // here can be override default margin(4em) between checkout sections
+
+        }
+    }
+
+    .mphb-checkout-section {
+
+    }
+
+    .mphb-booking-details {
+
+        &-title {
+
+        }
+
+        .mphb-check-in-date,
+        .mphb-check-out-date {
+
+            span {
+
+            }
+
+            time {
+
+            }
+
+            strong {
+
+            }
+
+        }
+
+    }
+
+    // reserved accommodations list
+    .mphb-reserve-rooms-details {
+
+        // single reserved accommodation
+        .mphb-room-details {
+
+        }
+
+        // accommodation sequence number(ex. Accommodation #1)
+        .mphb-room-number {
+
+        }
+
+        // accommodation title
+        .mphb-room-type-title {
+
+            span {
+
+            }
+
+            a {
+
+            }
+
+        }
+
+        // adults/children select
+        .mphb-adults-chooser,
+        .mphb-children-chooser {
+
+            label {
+
+            }
+
+            select {
+
+            }
+
+        }
+
+        .mphb-guest-name-wrapper {
+
+            label {
+
+            }
+
+            input {
+
+            }
+
+        }
+
+        // rates radio buttons
+        .mphb-rate-chooser {
+
+            &-title {
+
+            }
+
+            .mphb-room-rate-variant {
+
+                label {
+
+                }
+
+                input {
+
+                }
+
+                .mphb-price {
+
+                    .mphb-currency {
+
+                    }
+
+                }
+
+            }
+
+        }
+
+        // services checkboxes
+        .mphb-services-details {
+
+            &-title {
+
+            }
+
+            // list of available services
+            .mphb_checkout-services-list {
+
+                li {
+
+                }
+
+                label {
+
+                }
+
+                input {
+
+                }
+
+                // charge periodicity
+                em {
+
+                }
+
+                .mphb-price {
+
+                    .mphb-currency {
+
+                    }
+
+                }
+
+                select {
+
+                }
+
+            }
+
+        }
+
+    }
+
+    // price breakdown table
+    .mphb-room-price-breakdown {
+
+        // price breakdown table wrapper outside of table
+        &-wrapper {
+
+        }
+
+        &-title {
+
+        }
+
+        .mphb-price-breakdown-expand {
+
+            .mphb-inner-icon {
+
+            }
+
+        }
+
+
+        td {
+
+        }
+
+        th {
+
+        }
+
+        // total price
+        .mphb-price-breakdown-total {
+
+            .mphb-table-price-column {
+
+            }
+
+        }
+
+    }
+
+    // customer information form
+    .mphb-customer-details {
+
+        &-title {
+
+        }
+
+        label {
+
+        }
+
+        .mphb-required-fields-tip {
+
+        }
+
+        .mphb-customer-name,
+        .mphb-customer-last-name,
+        .mphb-customer-email,
+        .mphb-customer-phone {
+
+            input {
+
+            }
+
+        }
+
+        .mphb-customer-country {
+
+            select {
+
+            }
+
+        }
+
+        .mphb-customer-note {
+
+            textarea {
+
+            }
+
+        }
+
+    }
+
+    // payment method chooser wrapper
+    #mphb-billing-details {
+
+    }
+
+    .mphb-gateway-chooser-title {
+
+    }
+
+    // gateway list
+    .mphb-gateways-list {
+
+        li {
+
+        }
+
+        input {
+
+        }
+
+        label {
+
+        }
+
+        strong {
+
+        }
+
+        .mphb-gateway-description {
+
+        }
+
+    }
+
+    // payment card details
+    .mphb-billing-fields {
+
+        .mphb-stripe-payment-container {
+
+        }
+
+    }
+
+    // checkout total
+    .mphb-total-price {
+
+        output {
+
+        }
+
+        .mphb-total-price-field {
+
+            .mphb-price {
+
+                .mphb-currency {
+
+                }
+
+            }
+
+        }
+
+    }
+
+    // checkout deposit
+    .mphb-deposit-amount {
+
+        output {
+
+        }
+
+        .mphb-total-price-field {
+
+            .mphb-price {
+
+                .mphb-currency {
+
+                }
+
+            }
+
+        }
+
+    }
+
+    // checkout errors wrapper
+    .mphb-errors-wrapper {
+
+    }
+
+    .mphb-checkout-terms-wrapper {
+
+        // 'terms and conditions' content
+        .mphb-terms-and-conditions {
+
+        }
+
+        .mphb-terms-and-conditions-accept {
+
+            label {
+
+            }
+
+            input {
+
+            }
+
+        }
+
+    }
+
+    // checkout submit button
+    .mphb_sc_checkout-submit-wrapper {
+
+        .button {
+
+        }
+
+    }
+}

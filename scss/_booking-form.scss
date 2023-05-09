@@ -1,0 +1,84 @@
+.mphb-booking-form {
+
+    .mphb-required-fields-tip {
+
+    }
+
+    .mphb-check-in-date-wrapper {
+
+        input {
+
+        }
+
+    }
+
+    .mphb-check-out-date-wrapper {
+
+        input {
+
+        }
+
+    }
+
+    .mphb-adults-wrapper {
+
+        select {
+
+        }
+
+    }
+
+    .mphb-children-wrapper {
+
+        select {
+
+        }
+
+    }
+
+    // book button, price, and number of accommodation to book wrapper
+    .mphb-reserve-room-section {
+
+        // number of accommodations to reserve
+        .mphb-rooms-quantity-wrapper {
+
+            &.mphb-rooms-quantity-single {
+
+            }
+
+            &.mphb-rooms-quantity-multiple {
+
+            }
+
+            select {
+
+            }
+
+        }
+
+        // price for selected dates
+        .mphb-period-price {
+
+        }
+
+        // book button
+        .mphb-confirm-reservation {
+
+        }
+
+    }
+
+    // displayed when accommodation is unavailable for selected dates
+    .mphb-errors-wrapper {
+
+    }
+
+    // check availability button
+    .mphb-reserve-btn-wrapper {
+
+        .mphb-reserve-btn {
+
+        }
+
+    }
+}

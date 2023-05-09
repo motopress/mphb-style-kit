@@ -1,0 +1,110 @@
+.mphb_sc_account {
+
+    // account navigation
+    .mphb-account-menu {
+
+        ul {
+            li {
+
+            }
+        }
+
+        a {
+
+        }
+
+    }
+
+    .mphb-account-content {
+
+        .mphb-login-form {
+            // login form, use only if you need override common styles from "./scss/login-form.scss"
+        }
+
+        // bookings table
+        .mphb-account-bookings {
+
+            th {
+
+            }
+
+            td {
+
+            }
+
+            .booking {
+
+                &-number {
+
+                }
+
+                &-check-in {
+
+                }
+
+                &-check-out {
+
+                }
+
+                &-price {
+
+                }
+
+                &-actions {
+
+                }
+
+            }
+        }
+
+        // account details
+        .mphb-account-details-form {
+
+            label {
+
+            }
+
+            input {
+
+            }
+
+            select {
+
+            }
+
+
+            .mphb-customer {
+
+                &-first-name,
+                &-last-name,
+                &-username,
+                &-email,
+                &-phone,
+                &-address1,
+                &-country,
+                &-state,
+                &-city,
+                &-zip {
+
+                }
+            }
+
+            .mphb-account-change-password {
+
+                .mphb-account {
+
+                    &-old-password,
+                    &-new-password,
+                    &-confirm-new-password {
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}

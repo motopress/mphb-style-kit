@@ -1,0 +1,53 @@
+// common styles for sliders created by plugin (main, thumbnails)
+.mphb-flexslider {
+
+    ul.slides {
+
+        > li {
+
+        }
+
+        a {
+
+        }
+
+        img {
+
+        }
+    }
+
+    // controls(navigation arrows)
+    ul.flex-direction-nav {
+
+        li {
+
+        }
+
+        .flex-prev,
+        .flex-next {
+
+            &:before {
+
+            }
+
+        }
+
+        .flex-prev {
+
+            &:before {
+
+            }
+
+        }
+
+        .flex-next {
+
+            &:before {
+
+            }
+
+        }
+
+    }
+
+}
