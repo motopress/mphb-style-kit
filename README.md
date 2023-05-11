@@ -57,16 +57,19 @@ For your convenience, all styles are logically divided into files. All files con
 
 ```
 mphb-style-kit
-├───css                     # compiled css will be here
+├───css                       # compiled css will be here
 └───scss
-    ├───shortcodes          # shortcode-related styles
+    ├───widget                # widget-related styles
+    │   ├───_accommodations-list.scss
+    │   └───_availability-search.scss
+    ├───shortcodes            # shortcode-related styles
     │   ├───_accommodations-list.scss
     │   ├─── ...
     │   └───_single-accommodation.scss
     ├───_accommodations-attributes.scss
     ├─── ...
     ├─── _single-service.scss
-    └───style.scss          # main general style file
+    └───style.scss            # main style file
 ```
 
 ## License
